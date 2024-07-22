@@ -1,0 +1,151 @@
+
+body{
+    background-color: #f0f2f5;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #a7c7e7;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+footer{
+    background-color: #92a8d1;
+    text-align: center;
+    margin : 0;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+main{
+    margin: 0px;
+    padding: 0px;
+}
+header li{
+    display: inline;
+    margin-right: 13px;
+    font-size: 20px;
+    
+}
+.nao{
+    color: rgb(91, 1, 1);
+
+}
+.sim{
+    color: rgb(0, 59, 0);
+
+}
+.provavelmentenao{
+    color: rgb(58, 0, 0);
+
+}
+.provavelmentesim{
+    color: rgb(0, 17, 0);
+}
+.naosei::before{
+    content: "❔";
+    
+}
+.provavelmentesim::before{
+    content: "✔️";
+}
+.nao::before{
+    content: "❌";
+    
+}
+.provavelmentenao::before{
+    content: "✖️";
+}
+.sim::before{
+    content: "✅";
+    
+}
+section{
+    margin: 0px;
+}
+section ul{
+    margin-top: 1em;
+    columns: 3;
+    margin: 0px;
+    padding:0px;
+}
+section ul li{
+    margin-left: 20px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+@media screen and (max-width: 1024px){
+    section ul{
+        columns: 2;
+        margin-left: 0px;
+    }
+    section{
+        margin-left: 0px;
+    }
+    ul{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    header ul{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    header ul li{
+        font-size: 15px;
+        margin-right: 2px;
+        text-wrap: nowrap;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 1.5em;
+    
+    }
+}
+@media screen and (max-width: 768px){
+    section ul{
+        columns: 2;
+        margin-left: 0px;
+    }
+    section{
+        margin-left: 0px;
+    }
+    ul{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    section ul li{
+        font-size: 10px;
+        margin-right: 2px;
+        
+    }
+    header ul{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    header ul li{
+        font-size: 13px;
+        margin-right: 2px;
+        text-wrap: nowrap;
+    }
+    h2{
+        font-size: 15px;
+    }
+}
